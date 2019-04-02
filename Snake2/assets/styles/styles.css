@@ -1,0 +1,65 @@
+.cell {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	float: left;
+	border: 0;
+	margin: 0;
+}
+
+h2 {
+	font-family: "Courier New";
+	color: black; 
+	background-color: darkgrey;
+	border: 5px solid black;
+	border-radius: 10px;
+}
+
+body {
+	background-colour: black;
+	background-repeat: repeat;
+}
+
+#snake {
+	margin: 0 auto;
+	border-radius: 5px;
+	border: 5px solid grey;
+    	background-color: darkgrey;
+	background-repeat: repeat;
+}
+
+.snake-head {
+	background-image: url("../images/snake_head.png");
+	background-repeat: round;
+}
+
+.snake-head-L {
+	transform: rotate(180deg);
+}
+
+.snake-head-R {
+	transform: rotate(0deg);
+}
+
+.snake-head-U {
+	transform: rotate(270deg);
+}
+
+.snake-head-D {
+	transform: rotate(90deg);
+}
+
+.snake {
+    	background-color: green;
+	background-repeat: round;
+}
+
+.treat-1 {
+    	background-color: blue;
+	background-repeat: round;
+}
+
+.treat-5 {
+    background-color: purple;
+	background-repeat: round;
+}
